@@ -1,14 +1,16 @@
-#Graham Seamans - HW2 - Monopoles (the satening)
+# Graham Seamans - HW2 - Monopoles (the satening)
 
-##to run:
+## to run:
 
-'''
+```
 python3 monosat.py m n >instance.sat
 ./minisat instance.sat instance.soln
 python3 unmonosat.py m n <instance.soln
-'''
+```
 
-##Talking about the assignment:
+minisat can be found here: http://minisat.se/MiniSat.html
+
+## Talking about the assignment:
 
 So here's the sat solver!
 I'm hoping it's all up to spec.
@@ -19,7 +21,6 @@ once I got it worked out everything went really fast.
 there are some messy bits that could be faster, but the minisat (which is amazing) blows up with time much more than my code. So I've left it as is.
 
 I ended up writing a bash script to help with testing which was
-really helpful, alhough probably took more time than it saved,
-but that's programming.
+really helpful, although probably took more time than it saved.
 
 
