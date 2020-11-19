@@ -1,6 +1,6 @@
 # Graham Seamans - HW2 - Monopoles (the satening)
 
-## To Run:
+## To Run
 
 ```
 python3 monosat.py m n >instance.sat
@@ -10,7 +10,7 @@ python3 unmonosat.py m n <instance.soln
 
 minisat can be found here: http://minisat.se/MiniSat.html
 
-## Talking About The Assignment:
+## Talking About The Assignment
 
 So here's the sat solver!
 I'm hoping it's all up to spec.
